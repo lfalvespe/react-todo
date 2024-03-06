@@ -13,4 +13,4 @@ Check it out:
 
 https://lfalvespe.github.io/react-todo/
 
-<center><img src='public/react-todo.png'></center>
+<center><img src='public/react-todo.png' height="500px"></center>
