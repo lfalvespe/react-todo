@@ -1,0 +1,107 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.taskTitle {
+  display: inline-block;
+  background-color: #fefeff;
+  padding: 0.3em 1.2em;
+  border-radius: 8px;
+  width: 200px;
+  transition: .2s;
+  margin-right: 5px;
+  color: #000;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: .8em;
+  overflow-wrap: break-word;
+}
+
+.formContainer {
+  width: 320px;
+  background-color: #00000021;
+  margin: 40px auto;
+  padding: 40px 0;
+  border-radius: 10px;
+}
+
+.taskContainer {
+  border: 1px solid #ffff;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+input::placeholder {
+  color:rgb(153, 152, 152) ;
+}
+
+.mark {
+  -ms-transform: scale(2); /* IE */
+  -moz-transform: scale(2); /* FF */
+  -webkit-transform: scale(2);
+  -o-transform: scale(2);
+  transform: scale(1.5);
+  margin-right: 15px;
+}
+
+.delBtn, .editBtn, .changeBtn, .cancelBtn {
+  vertical-align:top;
+  margin-left: 5px;
+  text-shadow: 1px 1px 2px #000000be;
+}
+
+.delBtn {
+  background-color: rgb(233, 56, 56);
+}
+
+.delBtn:hover {
+  background-color: rgb(182, 46, 46);
+}
+
+.editBtn {
+  background-color: rgb(238, 163, 51);
+}
+
+.editBtn:hover {
+  background-color: rgb(165, 115, 22);
+}
+
+.changeBtn {
+  background-color: #10ae6f;
+}
+
+.changeBtn:hover {
+  background-color: #0c8353;
+}
+
+.cancelBtn {
+  background-color: #3d3d3d;
+}
+
+.cancelBtn:hover {
+  background-color: #2b2b2b;
+}
+
+#clear {
+  margin-top: 60px;
+  background-color: #1a1919;
+  width: 80%;
+  text-shadow: 1px 1px 2px #000000be;
+}
+
+#clear:hover {
+  background-color: rgb(233, 56, 56);
+}
+
+.marked {
+  /* filter: blur(1px); */
+  background-color: #10ae6f;
+  text-decoration: 2px #000 line-through;
+  font-weight: light;
+  color: #fff;
+  text-shadow: 1px 1px 2px #000000;
+}
+
